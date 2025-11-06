@@ -148,7 +148,6 @@ int main() {
         } else {
             printf("\nAtacante nao tem tropas suficientes para atacar!\n");
         }
-
         printf("\nPressione Enter para continuar para o proximo turno...\n\n");
         getchar();
     } while (continuaTurno > 0);
